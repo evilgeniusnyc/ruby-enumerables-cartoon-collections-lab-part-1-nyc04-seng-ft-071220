@@ -8,10 +8,10 @@ end
                # Print a custom greeting for each element
 
 def list_dwarves(array)
-   array_with_index do |character|
+   array_with_index do |character, index|
+     
     puts "Hello #{character}!"
   end
-end
 end
 
 
