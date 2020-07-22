@@ -9,8 +9,7 @@ end
 
 def list_dwarves(array)
    array_with_index do |character, index|
-     
-    puts "Hello #{character}!"
+    puts #{index +1}, #{character}
   end
 end
 
